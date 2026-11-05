@@ -1,0 +1,8 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    { "label": "Backend", "type": "shell", "command": "scripts\\start-backend.bat", "problemMatcher": [] },
+    { "label": "Frontend", "type": "shell", "command": "scripts\\start-frontend.bat", "problemMatcher": [] },
+    { "label": "Start all", "dependsOn": ["Backend", "Frontend"], "problemMatcher": [] }
+  ]
+}

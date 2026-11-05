@@ -1,0 +1,2 @@
+# Optional: only needed when GRAPH_BACKEND=neo4j
+neo4j==5.24.0
